@@ -8,9 +8,28 @@ main {
 
 aside {
     float:right;
-    width: 20%;
+    width: 10%;
+    height:calc(100%);
+    /* height: 100%; */
 }
 
 .clearfix{
     clear: both;
+    position: sticky;
+    /* position: fixed; */
+    flex-shrink:0;
+    width:100%;
+}
+
+@media screen and (max-width:600px) {
+    aside {
+        background-color: blue;
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+    main {
+        background-color: red;
+    }
 }

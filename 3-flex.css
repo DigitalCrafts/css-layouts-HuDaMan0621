@@ -1,0 +1,12 @@
+header{
+    flex: 100%;
+}
+
+main{
+    flex:100%;
+
+}
+aside{
+    flex:10%;
+    max-width:10%;
+}
